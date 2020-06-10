@@ -21,3 +21,6 @@ Route::get('/', function () {
 Route::get('foo', function () {
     return 'Hello world';
 });
+
+//新增使用者路由
+Route::get('/user', 'UserController@index');
