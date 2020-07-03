@@ -30,6 +30,7 @@ Route::get('/user', 'UserController@index');
 Route::redirect('/here', '/there');
 
 //重定向 ROC 到 Taiwin (302 Found)
+//若尾部數字更改為 301 將永久遷移路徑，例如網站更換網域可以使用 301 永久變更網域並自動跳轉
 Route::redirect('/roc', '/taiwan', 302);
 
 //訪問 /welcome ，顯示 laravel 歡迎視圖
