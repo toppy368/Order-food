@@ -26,8 +26,9 @@ Route::get('foo', function () {
 //Error: 少了控制user 的 conteroller,未來需補齊
 //Route::get('/user', 'UserController@index');
 
-//練習設定 /user 的 id function
-//此段稍早在 conterllers 新增的 User function 相同 
+//練習設定 /user/id 的 id function
+//此段稍早在 conterllers 新增的 User function 相同
+//若執行正確，訪問 /user/id 會顯示 id 字樣
 Route::get('user/{id}', function ($id) {
     return 'User '.$id;
 });
