@@ -26,7 +26,7 @@ Route::get('foo', function () {
 //Error: 少了控制user 的 conteroller,未來需補齊
 Route::get('/user', 'UserController@index');
 
-//練習重定向
+//練習重定向，輸入 /here 路徑，頁面將自動跳轉到 /there
 Route::redirect('/here', '/there');
 
 //重定向 ROC 到 Taiwin (302 Found)
