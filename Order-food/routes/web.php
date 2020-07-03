@@ -23,4 +23,5 @@ Route::get('foo', function () {
 });
 
 //user:usercontroll
+//Error: 少了控制user 的 conteroller,未來需補齊
 Route::get('/user', 'UserController@index');
