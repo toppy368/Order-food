@@ -32,5 +32,5 @@ Route::redirect('/here', '/there');
 //重定向 ROC 到 Taiwin (302 Found)
 Route::redirect('/roc', '/taiwan', 302);
 
-//訪問 /welcome ，顯示文字 welcome
+//訪問 /welcome ，顯示 laravel 歡迎視圖
 Route::view('/welcome', 'welcome');
