@@ -28,3 +28,6 @@ Route::get('/user', 'UserController@index');
 
 //練習重定向
 Route::redirect('/here', '/there');
+
+//重定向 ROC 到 Taiwin (302 Found)
+Route::redirect('/roc', '/taiwan', 302);
