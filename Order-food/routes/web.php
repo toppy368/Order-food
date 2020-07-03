@@ -28,9 +28,9 @@ Route::get('foo', function () {
 
 //練習設定 /user 的 id function
 //此段稍早在 conterllers 新增的 User function 相同 
-Route::get('user/{id}', function ($id) {
-    return 'User '.$id;
-});
+//Route::get('user/{id}', function ($id) {
+    //return 'User '.$id;
+//});
 
 
 //練習重定向，輸入 /here 路徑，頁面將自動跳轉到 /there
