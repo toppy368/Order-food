@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//Hello world
+//訪問 /foo 路由，會取得並顯示 Hello world 文字
 Route::get('foo', function () {
     return 'Hello world';
 });
