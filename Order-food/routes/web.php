@@ -32,6 +32,11 @@ Route::get('foo', function () {
     //return 'User '.$id;
 //});
 
+//訪問 /user/name，檢查看會不會顯示 null
+Route::get('user/{name?}', function ($name = null) {
+    return $name;
+});
+
 
 //練習重定向，輸入 /here 路徑，頁面將自動跳轉到 /there
 Route::redirect('/here', '/there');
