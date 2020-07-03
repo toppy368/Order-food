@@ -32,7 +32,7 @@ Route::get('foo', function () {
     //return 'User '.$id;
 //});
 
-//訪問 /user/name，檢查看會不會顯示 null
+//訪問 /user/name，name作為 ID 已設定為 null，畫面應該顯示 null 字串 
 Route::get('user/{name?}', function ($name = null) {
     return $name;
 });
