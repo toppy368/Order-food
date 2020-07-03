@@ -21,3 +21,6 @@ Route::get('/', function () {
 Route::get('foo', function () {
     return 'Hello world';
 });
+
+//user:usercontroll
+Route::get('/user', 'UserController@index');
