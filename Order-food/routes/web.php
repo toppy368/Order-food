@@ -47,7 +47,5 @@ Route::redirect('/here', '/there');
 Route::redirect('/roc', '/taiwan', 302);
 
 //訪問 /welcome ，顯示 laravel 歡迎視圖
-//Route::view('/welcome', 'welcome');
+Route::view('/welcome', 'welcome');
 
-//測試 /wolcome 頁面回傳參數
-Route::view('/welcome', 'welcome', ['name' => 'Taylor']);
