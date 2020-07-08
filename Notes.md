@@ -10,7 +10,7 @@ URL: https://hackmd.io/w0Rp-d4aQDOma8laKXNHPw
 中文社群框架網頁：https://laravel.tw/
 
 ## 安裝方式
-請檢查官網文件的 Installation 內容
+請檢查官網文件的 Installation 內容  
 https://laravel.com/docs/7.x
 
 ### 啟動專案的方式
