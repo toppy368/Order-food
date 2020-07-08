@@ -38,6 +38,11 @@ Route::get('user/{name?}', function ($name = null) {
     return $name;
 });
 
+//若設定帳號為 john 
+Route::get('user/{name?}', function ($name = 'John') {
+    return $name;
+});
+
 
 //練習重定向，輸入 /here 路徑，頁面將自動跳轉到 /there
 Route::redirect('/here', '/there');
