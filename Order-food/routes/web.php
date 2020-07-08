@@ -29,9 +29,9 @@ Route::get('foo', function () {
 //練習設定 /user/id 的 id function
 //此段稍早在 conterllers 新增的 User function 相同
 //若執行正確，訪問 /user/id 會顯示 id 字樣
-Route::get('user/{id}', function ($id) {
-    return 'User '.$id;
-});
+//Route::get('user/{id}', function ($id) {
+    //return 'User '.$id;
+//});
 
 //訪問 /user/name，name作為 ID 已設定為 null，畫面應該顯示 null 字串 
 Route::get('user/{name?}', function ($name = null) {
