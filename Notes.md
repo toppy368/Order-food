@@ -32,7 +32,7 @@ https://laravel.com/docs/7.x
 
 ### Controllers 控制器
 
-放置PHP主要程式碼的地方，相當於強型別程式語言的 `Class` 
+放置PHP主要程式碼的地方，相當於強型別程式語言的 `Class`
 
 ### Views 視圖
 
