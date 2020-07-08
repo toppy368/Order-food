@@ -1,5 +1,5 @@
 # Laravel 主要功能說明筆記
-URL: https://hackmd.io/w0Rp-d4aQDOma8laKXNHPw
+URL: https://hackmd.io/w0Rp-d4aQDOma8laKXNHPw?view
 
 本筆記是為了自己學習所需要而整理的文件，這只是方便查詢的懶人包，如有差異請依照框架文件說明為主。
 
